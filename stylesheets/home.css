@@ -78,3 +78,39 @@ hr.border{
     font-family: serif;
     font-size: 16px;
 }
+
+.click {
+    font-family: serif;
+    text-align: center;
+    color: #CAC4BB;
+}
+
+.open {
+    display: none;
+}
+
+.open2 {
+    display: none;
+}
+
+.click2 {
+    font-family: serif;
+    text-align: center;
+    color: #CAC4BB;
+
+}
+
+
+#tech {
+    padding-left: 130px;
+    height:80px;
+    width:100px;
+    float:left;
+    font-family: serif;
+    font-size: 16px;
+}
+
+#spec {
+    font-family: serif;
+    font-size: 16px;
+}
