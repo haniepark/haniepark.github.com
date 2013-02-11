@@ -13,3 +13,13 @@
 					$(".open2").slideToggle("slow");
 				});
 			});
+
+
+
+
+			$(document).ready(function(){
+				$(".click3").click(function(){
+					$(".open3").slideToggle("slow");
+				});
+			});
+

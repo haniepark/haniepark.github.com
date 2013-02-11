@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--><html lang="en"> <!--<![endif]-->
 <head>
 
 	<!-- Basic Page Needs
@@ -12,64 +9,130 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
 	<!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
-	<link rel="stylesheet" href="stylesheets/home.css">
+	<link rel="stylesheet" href="index.css">
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- jQuery
+  ================================================== -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+		</script>
+	<script type="text/javascript" src="index.js"> </script>
+
 
 </head>
 
 <body>
+
 	<div class="container">
-		<div class="three columns sidebar">
-			<nav> 
-				<h3 id="logo"> Menu </h3> <br>
-				<ul>
-					<li>
-						<a href="#"> Home</a>
-						</li> <br>
-					<li>
-						<a href="about.html"> About</a>
-						</li> <br>
-					<li>
-						<a href="#"> Project</a>
-						</li> <br>
-					<li>
-						<a href="contacts.html"> Contact</a>
-						</li> <br>
-				</ul>
-			</nav>
-		</div>
 
-		<div class="twelve columns offset-by-one">
+		<div class="twelve columns">
+			
 			<header>
-				<h1> Hello,<br> Welcome to my space </h1>
+					<h1> Welcome! <br> This is Stephanie HJ Park</h1>
 			</header>
-			<hr class="border">
-			<p> My website is currently under construction. </p>
-		</div>
-	</div>
+				<hr class="border">
+				
+				
+					<p id="title1"> Personal Identification</p>
 
+				
+			<div class="open">
+			
+				<table class="personal">
+					<tr>
+						<td width="150" class="inpersonal"> <div class="bold"> Full Name: </div></td>
+							<td>Stephanie Hyo Jung Park</td>
+					</tr>
+					<tr>
+						<td class="inpersonal"><div class="bold"> Education: </div> </td>
+						<td>BSc in Honours Science from University of Waterloo<br><br></td>
+					</tr>
+				
+				</table>
+			</div> <!-- .open -->
+			
+			<p class="click"> click here to open/close </p>
+	
+	
+	
+	
+	
+				<p id="title2"> Skills </p>
+	
+			<div class="open2">
+				
+				<table class="skills">
+					<tr>
+						<td width="150" class="inskills"><div class="bold"> Development </div></td>
+						<td>Web and Mobile Development<br>
+							Open-source Development <br><br></td>
+					</tr>
+					<tr>
+						<td width="150" class="inskills"><div class="bold"> Entrepreneurship </div></td>
+						<td>Can easily generate new and creative solutions.<br>
+							Excellent product design awareness.<br>
+							Driven by high-quality work and ideas.<br><br></td>
+					</tr>
+					<tr>
+						<td width="150" class="inskills"><div class="bold"> Communication </div></td>
+						<td>Strong problem solving skills shown in various projects and competitions <br>
+							Enthusiastic and ambitious to learn with a positive attitude<br>
+							Self-motivator and a responsible individual with many volunteer experiences<br>
+							Excellent ability to adopt new situations and people<br>
+							Outstanding interpersonal and communication skills<br>
+						 	Fluent in English, Korean, and Japanese<br><br></td>
+					</tr>	
+				</table>
+				
+				<div class="skill_title"> Technical</div>
+				<div id="tech"> Language: <br>
+								Tools: <br>
+								Web:<br>
+								Platforms:<br></div>
+								
+								
+				<div id="spec"> Javascript <br>
+								<br>
+								jQuery, XHTML, HTML5, CSS<br>
+								Windows, Mac OS X<br></div>
+		
+				
+			</div> <!--.open2-->		
+			
+			<p class="click2"> click here to open/close </p>
+			
+			
+			
+			
+			
+				<p id="title3"> Contact me </p>
+			
+			<div class="open3">
+				
+				<div class="contact">
+					
+					<a id="email" href="mailto:haniepark@gmail.com" target="_blank">
+						<img width="30" height="30" src="email.png" alt="E-mail Steph" title="E-mail Steph"></a>
+					<a id="github" href="http://github.com/haniepark" target="_blank">
+						<img width="30" height="30" src="github.png" alt="Github" title="Github"></a>
+					<a id="facebook" href="http://facebook.com/haniepark" target="_blank">
+						<img width="30" height="30" src="facebook.png" alt="Facebook" title="Check Steph out on Facebook :)"></a>
+					<a id="twitter" href="http://twitter.com/haniepark" target="_blank">
+						<img width="30" height="30" src="twitter.png" alt="Follow Steph on Twitter" title="Follow Steph on Twitter!"></a>
+					
+				</div> <!--.contact-->
+				
+			</div> <!--.open3-->		
+			
+			<p class="click3"> click here to open/close </p>
+			
+			
+			
+		</div> <!--.twelve columns-->
+	
+	</div> <!--.container-->
 
-
-<!-- End Document
-================================================== -->
 </body>
-</html>
