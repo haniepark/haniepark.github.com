@@ -47,12 +47,9 @@
 
 
 
-div.container {
-	margin-top: 30px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 50px;
-	position: relative;
+div.container-fluid {
+
+	margin: 30px 100px 
 }
 
 
@@ -65,9 +62,7 @@ hr.border{
 		border: none;
 		height: 5px;
 		background: #f1bbba;
-		margin: 10px 0;
-		margin-top: 15px;
-		margin-bottom: 20px;
+		margin: 15px 0px 20px 0;
 }
 
 
@@ -210,4 +205,65 @@ a:visited.github {
 
 }
 
+/* Large desktop */
+@media (min-width: 1200px) {
+}
+ 
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	div.container-fluid {
+		margin: 35px 50px;
+	}
+	
+	hr.border {
+		margin: 20px 0px;
+	}
+	
+	header h1{
+	  font-size: 40px;
+	  line-height: 40px;
+	  margin-right: 0px;
+	}
 
+	
+	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	div.container-fluid {
+		margin: 50px 20px;
+	}
+	
+	hr.border {
+		margin: 15px 0px;
+	}
+	
+	header h1{
+	  font-size: 35px;
+	  line-height: 35px;
+	  margin-right: 0px;
+	}
+
+ }
+ 
+ 
+/* Landscape phones and down */
+/* cellphone view */
+@media (max-width: 480px) { 
+	div.container-fluid {
+		margin: 30px 15px;
+	}
+	
+	hr.border {
+		margin: 15px 0px;
+	}
+	
+	header h1{
+	  font-size: 25px;
+	  line-height: 30px;
+	  margin-right: 0px;
+  }
+}
