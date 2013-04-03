@@ -56,7 +56,7 @@ p {
 }
 
 .about > li {
-	list-style-type: disc;
+	list-style-type: none;
 	font-size: 20px;
 	margin-bottom: 5px;
 }
@@ -76,6 +76,13 @@ em {
 
 li {
 	font-weight: bold;
+}
+
+
+/*contact*/
+
+.contact > p > a > img {
+	padding-bottom: 25px; 
 }
 
 
