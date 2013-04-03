@@ -85,6 +85,12 @@ li {
 	padding-bottom: 25px; 
 }
 
+.twitter-timeline {
+	padding-left: 20px; 
+}
+
+
+
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -107,6 +113,11 @@ li {
 	em {
 		font-size: 14px;
 	}
+	.contact > p > a > img {
+		width: 120px;
+		height: 120px;
+	}
+
 } 
 
 
@@ -119,8 +130,15 @@ li {
 		font-size: 14px;
 	}
 	
-	p {
+	h2, p {
 		display: inline-table;
 	}
+	
+	.twitter-timeline {
+		padding-left: 0; 
+	}
+
+
+	
 	
 }
