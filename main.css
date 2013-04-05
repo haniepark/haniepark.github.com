@@ -13,9 +13,6 @@
 	min-height: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	
 }
 
 .navbar {
@@ -24,6 +21,7 @@
 
 .hero-unit {
 	padding: 80px 60px;
+	background-color: #FDFDF4;
 }
 
 img {
@@ -36,9 +34,15 @@ p {
 	
 }
 
+.span7 > p {
+	font-size: 16px;
+
+
+}
+
 
 #prof_pic {
-	padding: 0 30px 30px 20px;
+	padding: 0 50px 30px 65px;
 }
 
 
@@ -78,7 +82,27 @@ li {
 	font-weight: bold;
 }
 
+.row-fluid {
+	padding-left: 25px;
+}
 
+.span3 > li {
+	list-style-type: none;
+}
+
+.span3 {
+	font-size: 16px; 
+}
+
+
+.span3 > p {
+	padding-left: 10px;
+}
+
+.span8 > p {
+	padding-left: 10px;
+	font-size: 16px;
+}
 /*contact*/
 
 .contact > p > a > img {
@@ -90,7 +114,12 @@ li {
 }
 
 
+/*footer*/
 
+.footer {
+	text-align: center;
+	padding-bottom: 30px;
+}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -134,15 +163,12 @@ li {
 		font-size: 14px;
 	}
 	
-	h2, p {
+	p {
 		display: inline-table;
 	}
 	
 	.twitter-timeline {
 		padding-left: 0; 
 	}
-
-
-	
 	
 }
