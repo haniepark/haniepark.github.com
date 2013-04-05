@@ -36,7 +36,7 @@ p {
 
 .span7 > p {
 	font-size: 16px;
-
+	text-align: justify;
 
 }
 
@@ -82,7 +82,11 @@ li {
 	font-weight: bold;
 }
 
-.row-fluid {
+
+/*span3*/
+
+.span3 {
+	font-size: 16px; 
 	padding-left: 25px;
 }
 
@@ -90,19 +94,22 @@ li {
 	list-style-type: none;
 }
 
-.span3 {
-	font-size: 16px; 
-}
-
-
 .span3 > p {
 	padding-left: 10px;
+}
+
+/*span8*/
+
+.span8 {
+	padding-left: 25px;
 }
 
 .span8 > p {
 	padding-left: 10px;
 	font-size: 16px;
 }
+
+
 /*contact*/
 
 .contact > p > a > img {
