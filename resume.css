@@ -170,6 +170,15 @@ p {
 	padding: 15px 20px 0 25px;
 }
 
+.work a {
+	text-decoration: none;
+	border-bottom: 1px dotted #6B5344;
+	color: rgba(107, 83, 68, 1);
+} 
+
+.work a:hover {
+	color: rgba(107, 83, 68, 0.5);
+}
 
 /*act & cert*/
 
