@@ -1,0 +1,251 @@
+/*font-face*/
+
+@font-face {
+	font-family: "Comfortaa_Thin";
+	src: url("fonts/Comfortaa/Comfortaa_Thin.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Comfortaa_Regular";
+	src: url("fonts/Comfortaa/Comfortaa_Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "CaviarDreams";
+	src: url("fonts/Caviar-Dreams/CaviarDreams.ttf") format("truetype");
+}
+
+
+/*background and header*/
+
+body {
+	background: url(img/bgpattern2.png);	
+}
+
+#top {
+	background-color: rgba(182, 215, 201, 1);
+	min-height: 150px;
+}
+#top, #bottom {
+	margin: -21px -8px;
+}
+
+#top h1 {
+	font-family: "CaviarDreams";
+	text-align: left;
+	color: #fff;
+	-webkit-text-shadow: 2px 2px 2px grey;
+	-moz-text-shadow: 2px 2px 2px grey;
+	text-shadow: 2px 2px 2px grey;
+	padding: 40px;
+}
+
+/*intro*/
+
+p {
+	text-align: justify;
+	padding: 0 35px;
+	margin-bottom: -5px;
+}
+
+#container {
+	min-height: 650px;
+	width: 850px;
+	margin: 20px auto;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*main component*/
+
+#sec_container {
+	padding: 20px;
+	font-family: "Comfortaa_Thin";
+	color: #6B5344;
+	line-height: 30px;
+}
+
+#sec_container header, h3 {
+	font-family: "Comfortaa_Regular";
+}
+
+
+/*skill blocks*/
+
+.webdev {
+	display: table;
+}
+
+.as {
+	margin-bottom: 5px;
+	-webkit-text-shadow: 0 1px 1px #E7BBAA;
+	-moz-text-shadow: 0 1px 1px #E7BBAA;
+	text-shadow: 0 1px 1px #E7BBAA;
+}
+
+.skill {
+	height: 150px;
+	width: 350px;
+	background-color: rgba(255, 177, 190, 0.4);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px 0 0 40px;
+	float: left;
+}
+
+.skill h3 {
+	padding: 0 15px;
+	background-color: rgba(255, 177, 190, 0.4);
+	margin-bottom: 10px;
+}
+
+.spec_list > li {
+	float: left;
+	list-style-type: none;
+	padding: 0 10px;
+}
+
+.spec_list {
+	margin-left: -20px;
+}
+
+.second {
+	margin-left: 30px;
+	background-color: rgba(182, 215, 201, 0.4);
+}
+
+.second h3 {
+	background-color: rgba(182, 215, 201, 0.4);
+}
+
+.webdev > p {
+	margin: 5px 0 0 0;
+}
+
+#supp {
+	width: 730px;
+	height: 100px;
+	background-color: rgba(231, 187, 170, 0.4);
+}
+
+#supp li {
+	padding: 0 18px;
+}
+
+
+/*hover box shadow*/
+
+
+.skill:hover {
+	-webkit-box-shadow: 3px 3px 3px #6B5344;
+	-moz-box-shadow: 3px 3px 3px #6B5344;
+	box-shadow: 3px 3px 3px #6B5344;
+	
+
+	
+}
+
+
+/*my work*/
+
+.work {
+	width: 730px;
+	height: 330px;
+	background-color: rgba(231, 187, 170, 0.4);
+}
+
+.work-img {
+	padding: 0 10px 18px 18px;
+	float: left;
+}
+
+.work p {
+	padding-top: 30px;
+}
+
+
+.skill.second.work {
+	margin: 25px 0 0 40px;
+}
+
+#menu {
+	padding: 15px 20px 0 25px;
+}
+
+
+/*act & cert*/
+
+
+.logo {
+	padding: 15px 40px;
+	float: left;
+}
+
+
+.activity p {
+	padding: 0 18px;
+	text-align: left;
+}
+
+.act_inner {
+	margin: 25px 20px;
+}
+
+
+.skill.second.work.activity {
+	height: 160px;
+}
+
+.skill.second.work.activity > .logo {
+	padding-top: 5px;
+}
+
+.skill.second.work.activity p {
+	margin-top: 5px;
+}
+
+
+
+.webdev:last-child {
+	margin-bottom: 40px;
+}
+
+/*footer*/
+
+#bottom {
+	min-height: 80px;
+	background-color: rgba(255, 177, 190, 1);
+	font-family: "Comfortaa_Regular";
+	color: #6B5344;
+	text-align: center;
+}
+
+#bottom_nav.spec_list {
+	width: 360px;
+	margin: 0 auto;
+	display: table;
+	padding: 13px 0 0 0;
+}
+#bottom_nav.spec_list a:hover{
+	-webkit-transform: scale(1.4);
+}
+
+#bottom_nav > li > a {
+	text-decoration: none;
+	color: #6B5344;
+	padding: 0 10px;
+}
+
+#bottom_nav li:hover{
+	-webkit-transform: scale(1.2);
+}
+
+a:hover, 
+a:active, 
+a:visited {
+	color: #6B5344;
+}
+
+#bottom p {
+	margin-top: 14px;
+	text-align: center;
+	opacity: 0.7;
+}
