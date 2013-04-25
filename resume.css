@@ -35,7 +35,17 @@ body {
 	-webkit-text-shadow: 2px 2px 2px grey;
 	-moz-text-shadow: 2px 2px 2px grey;
 	text-shadow: 2px 2px 2px grey;
-	padding: 40px;
+	padding: 40px 40px 0 40px;
+}
+
+#social ul {
+	float: right;
+	margin-right: 20px;
+}
+
+#social ul li {
+	float: left;
+	list-style-type: none;
 }
 
 /*intro*/
