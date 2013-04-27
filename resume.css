@@ -29,7 +29,7 @@ body {
 }
 
 #top h1 {
-	font-family: "CaviarDreams";
+	font-family: "CaviarDreams", helvetica, georgia;
 	text-align: left;
 	color: #fff;
 	-webkit-text-shadow: 2px 2px 2px grey;
@@ -67,13 +67,13 @@ p {
 
 #sec_container {
 	padding: 20px;
-	font-family: "Comfortaa_Thin";
+	font-family: "Comfortaa_Thin", helvetica, georgia;
 	color: #6B5344;
 	line-height: 30px;
 }
 
 #sec_container header, h3 {
-	font-family: "Comfortaa_Regular";
+	font-family: "Comfortaa_Regular", helvetica, georgia;
 }
 
 
@@ -255,6 +255,8 @@ p {
 
 #bottom_nav li:hover{
 	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2):
 }
 
 a:hover, 
