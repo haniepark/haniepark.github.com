@@ -174,7 +174,8 @@ li {
 	}
 	
 	#workpage p:first-child {
-		padding-top: 110px;
+		padding-top: 80px;
+		margin-bottom: 30px;
 	}	
 	
 	#colourlover {
@@ -189,6 +190,12 @@ li {
 	#prof_pic {
 		margin: 55px 0;
 		padding: 0 35px;
+	}
+	
+	#logoset {
+		width: 250px;
+		height: 188px;
+		padding-left: 30px;
 	}
 	
 }
