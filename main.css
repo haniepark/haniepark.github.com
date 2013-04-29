@@ -42,7 +42,7 @@ p {
 
 
 #prof_pic {
-	padding: 0 50px 30px 65px;
+	padding: 30px 50px 30px 65px;
 }
 
 
@@ -137,11 +137,29 @@ li {
 	box-shadow: none;
 }
 
-.row-fluid > p {
-	padding-top: 65px;
+.description p {
+	padding: 110px;
 	text-align: justify;
 }
 
+.row-fluid .span5 {
+	margin-left: 0;
+
+}
+
+#colourlover {
+	width: 220px; 
+	height: 110px; 
+
+}
+
+#logoset {
+	width: 300px;
+	height: 225px;
+	overflow: hidden;
+	padding-left: 25px;
+	
+}
 
 
 /* Portrait tablet to landscape and desktop */
@@ -149,6 +167,30 @@ li {
 	.hero-unit {
 		padding: 40px 50px;
 	}
+/*mywork*/
+	.description p {
+	padding: 60px;
+	
+	}
+	
+	#workpage p:first-child {
+		padding-top: 110px;
+	}	
+	
+	#colourlover {
+	width: 200px; 
+	height: 100px; 
+
+	}
+	
+	.row-fluid .span7 {
+		width: 56.18232%;
+	}
+	#prof_pic {
+		margin: 55px 0;
+		padding: 0 35px;
+	}
+	
 }
 	
 
@@ -174,7 +216,36 @@ li {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-} 
+	
+	#prof_pic {
+		padding-left: 35px;
+	}
+	.row-fluid .span7 {
+		display: table;
+	}
+
+/*mywork*/	
+	.description p {
+	padding: 30px;
+	
+	}
+	
+	#workpage p:first-child {
+		padding-top: 30px;
+	}
+	
+	#colourlover {
+	width: 180px; 
+	height: 90px; 
+
+	}
+	
+		
+
+
+}
+
+
 
 
 /* cellphone view */
@@ -194,4 +265,16 @@ li {
 		padding-left: 0; 
 	}
 	
+	.description p {
+	padding: 10px;
+	
+	}
+	
+	#pic_frame {
+		width: 200px;
+		margin: 0 auto;
+	}
+	#prof_pic {
+		padding: 0;
+	}
 }
