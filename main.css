@@ -1,3 +1,22 @@
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Comfortaa_Regular";
+	src: url("fonts/Comfortaa/Comfortaa_Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "CaviarDreams";
+	src: url("fonts/Caviar-Dreams/CaviarDreams.ttf") format("truetype");
+}
+
+
+
+
+body {
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
 
 .nav-pills > li > a {
   padding-top: 12px;
