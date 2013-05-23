@@ -173,7 +173,7 @@ li {
 }
 
 #logoset {
-	width: 300px;
+	width: 330px;
 	height: 225px;
 	overflow: hidden;
 	padding-left: 25px;
@@ -302,5 +302,8 @@ li {
 	}
 	#prof_pic {
 		padding: 0;
+	}
+	#logoset {
+		padding-left: 0;
 	}
 }
