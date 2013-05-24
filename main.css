@@ -66,7 +66,7 @@ p {
 
 
 #main_banner{
-	/*display: inline-block;*/
+	min-height: 570px;
 }
 
 
@@ -157,8 +157,12 @@ li {
 }
 
 .description p {
-	padding: 110px;
+	padding: 85px;
 	text-align: justify;
+}
+
+.adjustment {
+	min-height: 350px;
 }
 
 .row-fluid .span5 {
@@ -166,10 +170,14 @@ li {
 
 }
 
-#colourlover {
+.colourlover {
 	width: 220px; 
 	height: 110px; 
 
+}
+
+.colourbanner {
+	display: block;
 }
 
 #logoset {
@@ -191,13 +199,15 @@ li {
 	padding: 60px;
 	
 	}
-	
+	.adjustment {
+		min-height: 0;
+	}
 	#workpage p:first-child {
 		padding-top: 80px;
 		margin-bottom: 30px;
 	}	
 	
-	#colourlover {
+	.colourlover {
 	width: 200px; 
 	height: 100px; 
 
@@ -255,12 +265,14 @@ li {
 	padding: 30px;
 	
 	}
-	
+	.adjustment {
+		min-height: 0;
+	}
 	#workpage p:first-child {
 		padding-top: 30px;
 	}
 	
-	#colourlover {
+	.colourlover {
 	width: 180px; 
 	height: 90px; 
 
@@ -295,7 +307,9 @@ li {
 	padding: 10px;
 	
 	}
-	
+	.adjustment {
+		min-height: 0;
+	}
 	#pic_frame {
 		width: 200px;
 		margin: 0 auto;

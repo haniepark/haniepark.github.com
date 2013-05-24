@@ -451,7 +451,12 @@ div.box-panel-items > div.box-hide-current-misc {
 	.box {
 		font-size: 75%;
 	}
-
+	.box-content h2 {
+		font-size: 30px;
+	}
+	.box-content p {
+		font-size: 18px;
+	}	
 	.box-expand .box {
 		height: 130px;
 	}
