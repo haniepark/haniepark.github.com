@@ -186,6 +186,7 @@ div.box-panel-items > div > div {
 	display: block;
 	padding: 0;
 	border: 8px solid rgba(0,0,0,0.1);
+	overflow-y: hidden;
 }
 
 
@@ -194,6 +195,9 @@ div.box-panel-items > div > div {
 	max-width: 100%;
 }
 
+#crop {
+	margin-bottom: -91%;
+}
 
 
 
@@ -294,7 +298,7 @@ div.box-panel-items > div {
 }
 
 div.box-panel-items > div > div {
-	width: 55%;
+	width: 75%;
 	margin: 0 auto;
 	opacity: 1;
 	bottom: 90px;
@@ -313,19 +317,22 @@ div.box-panel-items > div > div h3 {
 
 div.box-panel-items > div > div p {
 	font-size: 18px;
-	color: #8C8C76;
+	color: #3B3B33;
 	margin-top: 20px;
 	line-height: 35px;
 
 }
+div.box-panel-items > div > div p:first-of-type {
+	padding-top: 15px;
+}
 
 div.box-panel-items > div > div p > a {
-	color: #B3B39C;
+	color: #2B879E;
 	text-decoration: none;
 }
 
 a:hover, a:active, a:visited {
-	color: #B3B39C;
+	color: #2B879E;
 }
 
 
@@ -339,7 +346,8 @@ a:hover, a:active, a:visited {
 	padding-top: 1px;
 }
 div.box-panel-items > div > div img {
-	display: block;
+	float: left;
+	padding: 15px 50px 15px 0;
 	max-width: 100%;
 }
 
@@ -351,7 +359,7 @@ div.box-panel-items {
 
 
 div.box-panel-items > div {
-	background: #FCE7A1;
+	background: #B4DEBB;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
