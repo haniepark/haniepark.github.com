@@ -374,8 +374,8 @@ div.box-panel-items > div {
 div.box-panel-items #close {
 	position: absolute;
 	z-index: 9999;
-	top: -94%;
-	right: 18%;
+	top: -91%;
+	right: 14%;
 	opacity: 0;
 	cursor: pointer;
 	
