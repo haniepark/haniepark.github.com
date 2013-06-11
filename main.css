@@ -12,11 +12,25 @@
 }
 
 
-
+html {
+	height: 100%;
+}
 
 body {
 	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	color: #0B0034;
+	height: 100%;
 }
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -90px;
+}
+
+/*navbar contents*/
 
 .nav-pills > li > a {
   padding-top: 12px;
@@ -38,9 +52,22 @@ body {
 	margin-bottom: 0;
 }
 
+.navbar .brand {
+	font-size: x-large;
+	font-weight: 500; 
+	color: #C395A2;
+}
+
+.navbar .brand:hover {
+	color: #FFE5DD;
+}
+
+/*main page*/
+
+
 .hero-unit {
 	padding: 80px 60px;
-	background-color: #FBF8F5;
+	background-color: #fff;
 }
 
 img {
@@ -53,7 +80,7 @@ p {
 	
 }
 
-.span7 > p {
+#greeting p {
 	font-size: 16px;
 	text-align: justify;
 
@@ -65,27 +92,25 @@ p {
 }
 
 
-#main_banner{
-	min-height: 570px;
-}
-
 
 /*about*/
 
-.navbar .brand {
-	font-size: x-large;
-	font-weight: 500; 
-	color: #C395A2;
-}
 
 .about > li {
 	list-style-type: none;
-	font-size: 20px;
-	margin-bottom: 5px;
+	font-size: 26px;
+	margin-bottom: 20px;
+	-webkit-text-shadow: 1px 2px 1px grey;
+	-moz-text-shadow: 1px 2px 1px grey;
+	text-shadow: 1px 2px 1px grey;
 }
 
-.title {
-	font-size: 20px;
+.about > li:nth-child(n+2) {
+	margin-top: 30px;
+}
+
+.contents {
+	margin-left: 25px;
 }
 
 .logo_img {
@@ -101,6 +126,15 @@ li {
 	font-weight: bold;
 }
 
+.skills {
+	list-style-type: disc;
+}
+
+.span3.tech h4 {
+	-webkit-text-shadow: 1px 2px 1px #C395A2;
+	-moz-text-shadow: 1px 2px 1px #C395A2;
+	text-shadow: 1px 2px 1px #C395A2;
+}
 
 /*span3*/
 
@@ -109,13 +143,6 @@ li {
 	padding-left: 25px;
 }
 
-.span3 > li {
-	list-style-type: none;
-}
-
-.span3 > p {
-	padding-left: 10px;
-}
 
 /*span8*/
 
@@ -131,7 +158,11 @@ li {
 
 /*contact*/
 
-.contact > p > a > img {
+#contact {
+	width: 50%;
+	margin: 0 auto;
+}
+#contact > p > a > img {
 	padding-bottom: 25px; 
 }
 
@@ -140,13 +171,25 @@ li {
 }
 
 
+
 /*footer*/
 
-.footer {
+
+#footer {
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 0;
+	height: 60px;
+	background-color: rgba(251, 234, 229, 0.4);
+}
+.container {
+	padding-top: 30px;
+	margin: 0 auto;
+	width: 330px;
 }
 
+.container > p {
+	padding-left: 0;
+}
 
 
 /*work*/
@@ -189,8 +232,20 @@ li {
 }
 
 
+
+@media (min-width: 979px) and (max-width: 1300px) {
+	/*contact*/
+	#contact {
+		width: 65%;
+		margin: 0 auto;
+	}
+}
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
+	
+	#wrap {
+		margin: 0 auto -40px;	
+	}
 	.hero-unit {
 		padding: 40px 50px;
 	}
@@ -220,18 +275,25 @@ li {
 		margin: 55px 0;
 		padding: 0 35px;
 	}
-	
 	#logoset {
 		width: 250px;
 		height: 188px;
 		padding-left: 30px;
 	}
-	
+	/*contact*/
+	#contact {
+		width: 75%;
+		margin: 0 auto;
+	}
 }
-	
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	
+	#wrap {
+		margin: 0 auto -40px;	
+	}
+	
 	.navbar-fixed-top {
 		margin-right: 0;
 		margin-left: 0;	
@@ -259,7 +321,20 @@ li {
 	.row-fluid .span7 {
 		display: table;
 	}
-
+	
+	#greeting p {
+		padding-right: 20px;
+	}
+/*about*/
+	.span3.tech {
+		float: left;
+		min-height: 190px;
+		width: 50%;
+	}
+	.span3.tech:first-child, .span3.tech:nth-child(2) {
+		margin-bottom: 20px;
+	}
+	
 /*mywork*/	
 	.description p {
 	padding: 30px;
@@ -277,17 +352,23 @@ li {
 	height: 90px; 
 
 	}
-	
-		
-
-
+	/*contact*/
+	#contact {
+		width: 80%;
+		margin: 0 auto;
+	}
 }
-
-
 
 
 /* cellphone view */
 @media (max-width: 480px) {
+	#wrap {
+		margin: 0 auto -40px;	
+	}
+	#greeting p {
+		text-align: left;
+	}
+	
 	.logo_img {
 		padding: 8px 0;
 	}	
@@ -320,4 +401,33 @@ li {
 	#logoset {
 		padding-left: 0;
 	}
+	
+/*about*/
+	.about, .skills {
+		margin: 0;	
+	}
+	.about > li:nth-child(n+2) {
+		margin-top: 30px;
+	}
+	
+	.span3.tech {
+		margin-right: 5px;
+		width: 47%;
+		padding-left: 20px;
+	}
+	.skills {
+		list-style-type: none;
+	}
+	.span3.tech:nth-child(odd) h4 {
+		margin-left: -20px;
+	}
+	.span3.tech:nth-child(even) .skills {
+		margin-left: 20px;
+	} 
+	/*contact*/
+	#contact {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 }
