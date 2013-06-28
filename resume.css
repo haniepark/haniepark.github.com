@@ -238,9 +238,6 @@ p {
 	display: table;
 	padding: 13px 0 0 0;
 }
-#bottom_nav.spec_list a:hover{
-	-webkit-transform: scale(1.4);
-}
 
 #bottom_nav > li > a {
 	text-decoration: none;
@@ -251,7 +248,7 @@ p {
 #bottom_nav li:hover{
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
-	transform: scale(1.2):
+	transform: scale(1.2);
 }
 
 a:hover, 

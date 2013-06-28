@@ -199,18 +199,13 @@ li {
 	box-shadow: none;
 }
 
-.description p {
-	padding: 85px;
-	text-align: justify;
-}
-
-.adjustment {
-	min-height: 350px;
+.description {
+	min-height: 200px;
+	padding: 80px 60px;
 }
 
 .row-fluid .span5 {
-	margin-left: 0;
-
+	margin: 0 5% 0 0;
 }
 
 .colourlover {
@@ -250,17 +245,10 @@ li {
 		padding: 40px 50px;
 	}
 /*mywork*/
-	.description p {
-	padding: 60px;
-	
+
+	.description {
+		padding: 80px 20px 60px 20px;
 	}
-	.adjustment {
-		min-height: 0;
-	}
-	#workpage p:first-child {
-		padding-top: 80px;
-		margin-bottom: 30px;
-	}	
 	
 	.colourlover {
 	width: 200px; 
@@ -336,15 +324,10 @@ li {
 	}
 	
 /*mywork*/	
-	.description p {
-	padding: 30px;
-	
-	}
-	.adjustment {
+
+	.description {
+		padding: 30px;
 		min-height: 0;
-	}
-	#workpage p:first-child {
-		padding-top: 30px;
 	}
 	
 	.colourlover {
@@ -384,13 +367,11 @@ li {
 		padding-left: 0; 
 	}
 	
-	.description p {
-	padding: 10px;
+	.description {
+		padding: 10px;
+		min-height: 0;	
+	}
 	
-	}
-	.adjustment {
-		min-height: 0;
-	}
 	#pic_frame {
 		width: 200px;
 		margin: 0 auto;
