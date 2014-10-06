@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+}
+body {
+	margin: 0;
+	font-family: "Avenir Next",  Helvetica, Arial, sans-serif;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+ul {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+h2{
+	margin-bottom: 30px;
+}
+#logo {
+	width: 85%;
+	margin: 0 auto 20px;
+}
+#navfix {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 20%;
+	/*background: rgb(198,203,204); */
+}
+#navfix header {
+	height: 60%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+nav {
+	text-align: center;
+}
+nav ul {
+	display: inline-block;
+}
+nav li {
+	font-size: 18px;
+	padding: 15px 0;
+	cursor: pointer;
+}
+.icons {
+	padding-right: 10px;
+	min-width: 30px;
+	display: inline-block;
+	text-align: center;
+}
+section.section-wrapper {
+	width: 79%;
+	float: right;
+}
+#main {
+	/*background: rgb(210,178,154);*/
+}
+.contents {
+	padding: 5%;
+}
+.contents {
+	margin-top: 15%;
+	text-align: center;
+}
+#main h1 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+#toronto-skyline {
+	margin-bottom: 40px;
+	width: 100%;
+	max-width: 430px;
+}
+
+#about {
+	/*background: rgb(199,141,107);*/
+}
+#portfolio {
+	/*background: rgb(234,217,139) ;*/
+	/*background: rgb(149,82,81); */
+}
+#portfolio .contents {
+	margin-top: 0;
+}
+
+#contact li {
+	padding: 10px 0;
+}
+#contact .icons {
+	vertical-align: sub;
+}
+
+.linkedin {
+	color: #4875B4;
+}
+.twitter {
+	color:#33CCFF;
+}
+
+@media (max-width: 480px) {
+
+}
+@media (max-width: 480px) {
+	#navfix {
+		display: none;
+	}
+	section.section-wrapper {
+		width: 100%;
+	}
+	.contents {
+		margin-top: 30%;
+	}
+
+	#menu {
+		background: url(menu.png);
+		width: 33px;
+		height: 65px;
+		overflow: auto;
+		margin: auto;
+		position: fixed;
+		top: 0; left: 0; bottom: 0;
+	}
+}

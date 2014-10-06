@@ -1,80 +1,95 @@
 <!DOCTYPE html>
-<!--><html lang="en"> <!--<![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-CA">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-CA">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-CA">
+<!--<![endif]-->
 <head>
-
-	<!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title> Steph Park </title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-	<!-- CSS
-  ================================================== -->
-	
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" href="main.css">
-	<link rel="shortcut icon" href="img/favicon.ico">
-
-
-	<!-- jQuery
-  ================================================== -->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"> </script>
-
-
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Steph Park</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="font/css/font-awesome.min.css" type="text/css" media="screen" />
 </head>
 
-
 <body>
-	<div id="wrap">
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="navbar-inner">
-				<a class="brand" href="index.html">Steph Park</a>
-				<ul class="nav nav-pills pull-right">
-					<li class="active">
-						<a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="work.html">My work</a></li>
-					<li><a href="contact.html">Contact</a></li>
+<div id="container">
+	<div id="navfix"  class="section-wrapper">
+		<header>
+			<div id="logo"><a href="http://haniepark.com/"><img src="image/haniepark-logo.png" width="90%"></a></div>
+			<nav class="clearfix">
+				<ul class="clearfix">
+					<li><span class="icons"><i class="fa fa-home"></i></span><a class="on" data-nav="#main">Home</a></li>
+					<li><span class="icons"><i class="fa fa-info"></i></span><a data-nav="#about">About</a></li>
+					<li><span class="icons"><i class="fa fa-briefcase"></i></span><a data-nav="#portfolio">Portfolio</a></li>
+                	<li><span class="icons"><i class="fa fa-envelope"></i></span><a data-nav="#contact">Contact</a></li>
 				</ul>
-			</div>
-		</div> <!-- .navbar navbar-inverse-->
-	
-	
-		<div class="hero-unit">
-	  		<div id="pic_frame">
-	  			<img src="img/profile.jpg" class="img-rounded" id="prof_pic" alt="Steph" width="200" height="300">
-	  		</div>
-	  			<div class="row-fluid">
-	  				<div class="span7" id="greeting">
-		  				<h2>This is my story</h2>
-	  			
-		  				
-		  				<p> I'm an ordinary girl with an extra-ordinary passion toward creation and expression.	
-	  						I've been seeking for something that I could permeate myself in the work.
-	  						After a while searching for what I really wanted to do, what I've found myself fascinated by was programming.</p>
-	  					<p> I believe, there is a humanity in every single line of the code.<br>
-	  						And this is why I chose to become a programmer. </p>
-	  		
-		  			<p>Are you interested?<br> Come find out more about me!</p>
-	  				</div>
-	  			</div>
-		  			
-		</div> <!-- .hero-unit-->
-	</div><!--#wrap-->
+			</nav>
+		</header>
+    </div> <!-- END OF #navfix -->
+	<!-- <div id="menu"></div> -->
+    <section id="main" class="section-wrapper">
+    	<div class="contents">
+    		<img id="toronto-skyline" src="image/toronto-skyline.png" alt="toronto skyline silhouette">
+    		<h1>Stephanie Park</h1>
+    		<p>A front-end developer based in Toronto, ON</p>
+    	</div>
+    </section>
 
-	<footer id="footer"> 
-		<div class="container">
-			<p>© Stephanie Hyo Jung Park - Built with <a href="http://twitter.github.io/bootstrap/" target="_blank">bootstrap</a>.<br></p>
-			
-			
-		</div>
-			
-	</footer>
-	
+    <section id="about" class="section-wrapper">
+    	<div class="contents">
+    		<h2>Things about me</h2>
+    		<ul>
+    			<li>
+    				<p>I'm a front-end web developer at <a href="https://beanfield.com/">beanfield Metroconnect</a></p>
+    			</li>
+    			<li>
+    				<p>I also work as a freelancer web designer &amp; developer.</p>
+    			</li>
+    			<li>
+    				<p>... and I love freshly brewed coffee!</p>
+    			</li>
+    		</ul>
+    		
+    		
+    		
+    	</div>
+    </section>
 
+    <section id="portfolio" class="section-wrapper">
+    	<div class="contents">
+    		<h2>Portfolio</h2>
+
+    	</div>
+    </section>
+
+    <section id="contact" class="section-wrapper">
+    	<div class="contents">
+    		<h2>Get in touch with me</h2>
+    		<ul>
+    			<li class="linkedin"><span class="icons"><i class="fa fa-linkedin fa-3x"></i></span><a class="linkedin" href="http://ca.linkedin.com/in/haniepark" target="_blank">@haniepark</a></li>
+    			<li class="github"><span class="icons"><i class="fa fa-github fa-3x"></i></span><a href="https://github.com/haniepark" target="_blank">@haniepark</a></li>
+    			<li class=twitter><span class="icons"><i class="fa fa-twitter fa-3x"></i></span><a class="twitter" href="https://twitter.com/haniepark" target="_blank">@haniepark</a></li>
+    		</ul>
+    		
+    		
+    		
+    	</div>
+    </section>
+
+
+
+</div> <!--  END OF #container  -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"> </script>
+	<script type="text/javascript" src="js/script.js"> </script>
 </body>
