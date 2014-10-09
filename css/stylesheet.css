@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	font-family: "Avenir Next",  Helvetica, Arial, sans-serif;
+	color: #333;
 }
 .clearfix:after {
 	content: " ";
@@ -31,6 +32,9 @@ h2{
 	width: 85%;
 	margin: 0 auto 20px;
 }
+#logo img {
+	max-width: 270px;
+}
 #navfix {
 	position: fixed;
 	top: 0;
@@ -45,6 +49,7 @@ h2{
 	position: absolute;
 	top: 0; left: 0; bottom: 0; right: 0;
 }
+
 nav {
 	text-align: center;
 }
@@ -71,8 +76,6 @@ section.section-wrapper {
 }
 .contents {
 	padding: 5%;
-}
-.contents {
 	margin-top: 15%;
 	text-align: center;
 }
@@ -96,7 +99,12 @@ section.section-wrapper {
 #portfolio .contents {
 	margin-top: 0;
 }
-
+#portfolio article {
+	margin-top: 80px;
+}
+#portfolio h3 {
+	margin: 15px 0;
+}
 #contact li {
 	padding: 10px 0;
 }
@@ -111,8 +119,10 @@ section.section-wrapper {
 	color:#33CCFF;
 }
 
-@media (max-width: 480px) {
-
+@media (max-width: 768px) {
+	.contents {
+		margin-top: 35%;
+	}
 }
 @media (max-width: 480px) {
 	#navfix {
