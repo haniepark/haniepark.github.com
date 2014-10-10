@@ -1,25 +1,33 @@
 $(document).ready(function(){
 	var sectionHeight = (window.innerHeight);
-	$('.section-wrapper').css("height", sectionHeight+'px');
+	$('.section-wrapper').css("min-height", sectionHeight+'px');
 
 	$(window).on('resize', function(){
 
 		var sectionHeight = (window.innerHeight);
 
-		$('.section-wrapper').css("height", sectionHeight+'px');
+		$('.section-wrapper').css("min-height", sectionHeight+'px');
 
 	});
+	$(window).scroll(function() {
+	    var windscroll = $(window).scrollTop();
+	    if (windscroll >= 200) {
+		    $("#top").show();
+	    } else {
+	    	$("#top").hide();
+	    }
+	}).scroll();
 
-	//NAV ON CLICK
-	$('nav').on('click', 'a', function(){
-		var seeker = $(this).data('nav');
+    $("#top").on('click', 'a', function(){
+		var moveTop = $(this).data('nav');
 		$('html,body').animate({
-			scrollTop: $(seeker).offset().top
-			}, 'slow');
+			scrollTop: $(moveTop).offset().top 
+			}, 'slow');	
 	});
 
-	// $("#menu").click(function () {
-	// 	$("#navfix").toggle("slide", {direction: "left"}, 500);
-	// });
+	$('article').addClass("hidden").viewportChecker({
+        classToAdd: 'transition',
+        offset: 100
+    });
 });
 
