@@ -105,7 +105,6 @@ section.section-wrapper {
 /*#portfolio*/
 
 /*----banner transition slide up----*/
-
 @-webkit-keyframes slide-up { 
 	0% {
 	    opacity: 0;
@@ -195,7 +194,6 @@ section.section-wrapper {
 #contact .icons {
 	vertical-align: sub;
 }
-
 .linkedin {
 	color: #4875B4;
 }
@@ -245,19 +243,14 @@ footer {
 	.contents {
 		padding-top: 30%;
 	}
-	#portfolio .contents, #contact .contents {
+	#portfolio .contents {
+		padding: 20% 5% 25%;
+	}
+	#portfolio article .col{
+		display: block;
+		width: 100%
+	}
+	#contact .contents {
 		padding: 20% 5% 15%;
-	}
-	#portfolio article {
-		margin-top: 35px;
-	}
-	#menu {
-		background: url(menu.png);
-		width: 33px;
-		height: 65px;
-		overflow: auto;
-		margin: auto;
-		position: fixed;
-		top: 0; left: 0; bottom: 0;
 	}
 }
