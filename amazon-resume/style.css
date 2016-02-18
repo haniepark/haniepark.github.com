@@ -41,8 +41,11 @@ ul {
 ol {
   margin-left: 22px; 
 }
-.print-small {
+.print-sm {
 	font-size: 13px;
+}
+.print-lg {
+	font-size: 19px;
 }
 .flex-container {
 	display: -webkit-box;
@@ -173,7 +176,6 @@ ol {
 	border-bottom: 1px solid #e7e7e7;
 }
 .product-name {
-	font-size: 19px;
 	margin: 3px 0 10px;
 }
 .amazon-icon {
@@ -244,6 +246,13 @@ ol {
 .back-to-top-btn:hover {
 	text-decoration: none;
 	color: #111;
+}
+.contact-info {
+	margin: 20px 0;
+}
+.contact-list {
+	display: inline-block;
+	padding: 5px;
 }
 @media (min-width: 1025px) {
 	.main-header__wrapper {
