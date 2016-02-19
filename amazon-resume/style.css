@@ -270,9 +270,6 @@ ol {
 	.main-header {
 		min-height: 100px;
 	}
-	.main-header__wrapper {
-		max-width: 700px;
-	}
 	.haniepark-amazon-logo {
 		margin-right: 10%;
 	}
@@ -287,7 +284,11 @@ ol {
 	}
 	.product-summary{
 		width: 60%;
-		
+	}
+}
+@media (max-width: 1024px) and (min-width: 769px){
+	.main-header__wrapper {
+		max-width: 760px;
 	}
 }
 @media (max-width: 768px) {
